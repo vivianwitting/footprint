@@ -300,7 +300,7 @@ function calculateScore() {
 	var totalScore=0;
 	// console.log(quizInputs);
 	for(var i=0;i<quizInputs.length;i++){
-	        	if(quizInputs[i].getAttribute('type') == 'checkbox' && quizInputs[i].checked == true) {
+	        	if(quizInputs[i].getAttribute('type') == 'radio' && quizInputs[i].checked == true) {
 					totalScore += parseInt(quizInputs[i].dataset.weight);
 	        	}
 	        	else {
