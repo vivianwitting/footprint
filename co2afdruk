@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Footstep</title>
+    <head>
+<title>CO2 footprint</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial;
+  margin: 0;
+   padding: 0px;
+}
+
+
+
+.header {
+  padding: 50px;
+  text-align: center;
+background-image: url("https://photokip.com/upload/2018/08/21/20180821085101-b6e7ef91.jpg");
+  /*background: #4CAF50;*/
+  color: white;
+  font-size: 30px;
+   text-shadow: 4px 4px #000000; 
+}
+
+.content {padding:25px;}
+</style>
+</head>
+
+
+
+<div class="header" style="border: 3px solid #000000;">
+  <h1 style=font-size:70px><b>F  <img src="https://img.icons8.com/android/80/FFFFFF/human-footprints.png"> TPRINT</b></h1>
+</div>
+
+<head>
+
+<style>
+
+  body {
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  /*padding: 15px;*/
+  background-color: #F0FFF0;
+
+  
+}
+
+div.container4 {
+    height: 12em;
+    position: relative 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #808080;
+}
+
+.active {
+  background-color: #808080;
+}
+.centraal{
+  left: 20px;
+}
+h2 {
+    margin-left: 20px;
+}
+
+
+</style>
+</head>
+
+
+
+	
+<ul>
+  <li><a class="active" href="quiz.html"><img src="https://image.flaticon.com/icons/png/512/70/70555.png" height="50" width="50">
+    <br>
+    <small id="c02-result">0 kg</small>
+  </a></li>
+  <li><a  href="footprint 2.html"><img src="https://img.icons8.com/pastel-glyph/64/000000/water.png" height="50" width="50">
+    <br>
+    <small id="H20-result">0 L</small></a></li>
+  <li><a href="Score.html"><img src="https://img.icons8.com/pastel-glyph/52/000000/dining-room.png" height="50" width="50">
+    <br>
+    <small id="h20-result2">0 L</small></a></li>
+  <li><a href="Problem.html"><img src="https://cdn.pixabay.com/photo/2015/04/15/15/32/world-723987_640.png" height="50" width="50"></a></li>
+</ul>
+
+
+<div class="">
+
+    <!-- <div class="header"></div> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	</div>
+
+
+ <body>
+
+<h2>    CO2 voetafdruk per week</h2>
+<br>
+
+
+
+<div class="centraal">
+	<div class="col-sm-6">
+	<form>
+  <div class="form-group">
+
+    <label for="exampleInputEmail1">Hoeveel km is het rijden naar je werk of school? <i class="fas fa-car"></i></label>
+    <input type="number" class="form-control quiz-input" data-weight="2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="auto">
+
+   
+    <input type="number" class="form-control quiz-input" data-weight="1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="scooter">
+  
+
+    <input type="number" class="form-control quiz-input" data-weight="1.4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="bus">
+
+     <input type="number" class="form-control quiz-input" data-weight="1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="metro/tram">
+  </div>
+
+  Hoevaak ga je op vakantie met het vliegtuig?
+  <div class="form-group">
+  
+    <input type="number" class="form-control quiz-input" data-weight="300" id="exampleInputPassword1" placeholder="Binnen Europa">
+
+    <input type="number" class="form-control quiz-input" data-weight="800" id="exampleInputPassword1" placeholder="Buiten Europa">
+  </div>
+
+
+Je woont in een...
+  <div class="form-group">
+    <select class="custom-select quiz-input" data-weight="100">
+      <option value="1">Klein appartement</option>
+      <option value="2">Rijtjeshuis / groot appartement</option>
+      <option value="3">Twee-onder-een-kap woning</option>
+      <option value="4">Een mega vila</option>
+    </select>
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+
+  Je woning wordt verwarmt met...
+  <div class="form-group"> 
+    <select class="custom-select quiz-input" data-weight="1"> 
+      <option value="45">grijze stroom</option>
+      <option value="0">Nederlandse groene stroom</option>
+      <option value="2500">stadsverwarming (STEG)</i></option>
+      <option value="130">grijs gas</option>
+      <option value="220">stookolie</option>
+    </select> 
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+<!-- Je gaat meestal naar je werk of school met...
+  <div class="form-group"> 
+    <select class="custom-select quiz-input" data-weight="10"> 
+      <option value="30">de auto</option>
+      <option value="10">de elektrische auto</option>
+      <option value="20">het openbaar vervoer</option>
+      <option value="17">de scooter</option>
+      <option value="0">de fiets / lopend</i></option>
+      <option value="0">ik ga hier niet heen</option>
+    </select> 
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div> -->
+
+  Waar rijdt uw auto op?
+  <div class="form-group"> 
+    <select class="custom-select quiz-input" data-weight="1"> 
+      <option value="0.5">Volledig elektrisch</option>
+      <option value="30">Benzine</option>
+      <option value="30">Diesel</option>
+      <option value="20">LPG</option>
+      <option value="30">Aardgas (CNG)</i></option>
+      <option value="10">Groengas</option>
+      <option value="2">Hybride</option>
+    </select> 
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+
+Hoeveel vlees of vis eet je per week?
+  <div class="form-group">
+    <select class="custom-select quiz-input" data-weight="10">
+      <option value="0">Nooit. Ik ben vegetarier.</option>
+      <option value="6">Ongeveer 4 dagen per week vegetarisch. </option>
+      <option value="8">Meestel wel vlees of vis, af en toe vegetarisch</option>
+      <option value="11">Bij elke avondmaaltijd en ook op brood.</option>
+    </select>
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+
+ Hoevaak koop je nieuwe kleren?
+  <div class="form-group">
+    <select class="custom-select quiz-input" data-weight="1">
+      <option value="60">Vrijwel elke week</option>
+       <option value="20">Elke maand</option>
+       <option value="10">Een keer in de 2 of 3 maanden iets nieuws</option>
+      <option value="10">Alleen als ik iets nodig heb en het liefst tweedehands</option>
+      
+     
+      
+    </select>
+    <div class="invalid-feedback">Example invalid custom select feedback</div>
+  </div>
+
+<br>
+
+  <button type="button" id="calculate-score-btn" class="btn btn-success">Score berekenen</button>
+
+</form>
+</div>
+<div class="col-sm-6 text-center">
+	<h1 id="totalScore" class="" style="font-size:6em;"></h1>
+</div>
+
+
+</body>
+
+<script type="text/javascript">
+if (localStorage.getItem("totalC02")) {
+  document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
+}
+if (localStorage.getItem("totalH20")) {
+  document.getElementById("H20-result").innerHTML = localStorage.getItem("totalH20");
+}
+if (localStorage.getItem("totalH202")) {
+  document.getElementById("h20-result2").innerHTML = localStorage.getItem("totalH202");
+}
+
+document.getElementById("calculate-score-btn").addEventListener("click", calculateScore);
+
+
+function calculateScore() {
+
+	var quizInputs = document.getElementsByClassName('quiz-input');
+	var totalScore=0;
+	// console.log(quizInputs);
+	for(var i=0;i<quizInputs.length;i++){
+	        	if(quizInputs[i].getAttribute('type') == 'radio' && quizInputs[i].checked == true) {
+					totalScore += parseInt(quizInputs[i].dataset.weight);
+	        	}
+	        	else {
+	        		if(parseInt(quizInputs[i].value)) {
+	        			totalScore += quizInputs[i].dataset.weight * parseInt(quizInputs[i].value);	
+	        		}
+	        	}
+	}
+
+	var totalScoreElement = document.getElementById('totalScore');
+	totalScoreElement.innerHTML = totalScore + ' kg C02';
+
+  localStorage.setItem("totalC02", totalScore + ' kg');
+  document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
+
+	if (totalScore < 750) {
+		totalScoreElement.classList.remove('text-success');
+		totalScoreElement.classList.add('text-danger');
+	}
+	else {
+		totalScoreElement.classList.remove('text-danger');
+		totalScoreElement.classList.add('text-success');
+
+	}
+	// console.log(totalScore);
+}
+</script>
+
+
+
