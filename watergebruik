@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Footstep</title>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://www.despakenburgsevisspecialist.nl/wp-content/uploads/2016/10/shining-blue-water-background.jpg");  /*background: #4CAF50;*/
+  color: black;
+  font-size: 30px;
+  text-shadow: 4px 4px #FFFFFF; 
+}
+
+
+.content {padding:25px;}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="header"  style="border: 3px solid #000000;">
+  <h1 style=font-size:70px><b>F <img src="https://img.icons8.com/android/80/000000/human-footprints.png"> TPRINT</b></h1>
+</div>
+
+
+<head>
+<title>Waterfootprint</title>
+<style>
+  body{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-color: #F0FFF0;
+     margin: 100;
+  /*padding: 20px;*/
+  
+}
+
+div.container4 {
+    height: 12em;
+    position: relative 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #808080;
+}
+
+.active {
+  background-color: #808080;
+}
+h3 {
+    margin-left: 40px;
+}
+</style>
+</head>
+
+
+<body>
+    
+<ul>
+  <li><a href="quiz.html"><img src="https://image.flaticon.com/icons/png/512/70/70555.png" height="50" width="50">
+    <br>
+    <small id="c02-result">0 kg</small>
+  </a></li>
+  <li><a class="active" href="footprint 2.html"><img src="https://img.icons8.com/pastel-glyph/64/000000/water.png" height="50" width="50">
+    <br>
+    <small id="H20-result">0 L</small></a></li>
+  <li><a href="Score.html"><img src="https://img.icons8.com/pastel-glyph/52/000000/dining-room.png" height="50" width="50">
+    <br>
+    <small id="h20-result2">0 L</small></a></li>
+  <li><a href="Problem.html"><img src="https://cdn.pixabay.com/photo/2015/04/15/15/32/world-723987_640.png" height="50" width="50"></a></li>
+</ul>
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+<h3>    Water gebruik per week</h3>
+
+
+<div class="list-group">
+
+
+
+       <div class="list-group-item d-flex justify-content-between">
+       
+        <form oninput="x.value=parseFloat(b.value*1).toFixed(2)">
+            <img src="https://img.icons8.com/ios-filled/50/000000/wash-your-hands.png" width="20" height="20">
+        <input type="number" min="0" id="b" onblur="sumTotalH20()" placeholder="handen wassen" data-weight="1" class="c02"> 
+        =<output name="x" for="a b"></output>  Liter H2O
+    </form>
+    </div>
+
+
+    <div class="list-group-item d-flex justify-content-between">
+       
+        <form oninput="x.value=parseFloat(c.value*0.8).toFixed(2)">
+            <!-- <i class="fas fa-tshirt"></i> -->
+            <img src="https://img.icons8.com/pastel-glyph/64/000000/tooth-cleaning-kit.png" height="20" width="20">
+        <input type="number" min="0" id="c" onblur="sumTotalH20()" placeholder="aantal keer" data-weight="1" class="c02">
+        =<output name="x" for="a b"></output>  Liter H2O
+    </form>
+    </div>
+
+   
+    <div class="list-group-item d-flex justify-content-between">
+        
+        <form oninput="x.value=parseFloat(d.value*50).toFixed(2)">
+            <img src="https://image.flaticon.com/icons/svg/1104/1104590.svg" width="20" height="20">
+        <input type="number" min="0" id="d" onblur="sumTotalH20()" placeholder="aantal keer" data-weight="50" class="c02">
+        =<output name="x" for="a b"></output>  Liter H2O
+    </form>
+    </div>
+
+
+        <div class="list-group-item d-flex justify-content-between">
+        
+        <form oninput="x.value=parseFloat(d.value*17.4).toFixed(2)">
+            <img src="https://img.icons8.com/ios-filled/50/000000/dishwasher.png" width="20" height="20">
+        <input type="number" min="0" id="d" onblur="sumTotalH20()" placeholder="aantal keer" data-weight="17" class="c02">
+        =<output name="x" for="a b"></output>  Liter H2O
+    </form>
+    </div>
+
+
+    <div class="list-group-item d-flex justify-content-between">
+        
+        <form oninput="x.value=parseFloat(e.value*6).toFixed(2)">
+            <i class="fas fa-toilet"></i> 
+        <input type="number" min="0" id="e" onblur="sumTotalH20()" placeholder="aantal keer" data-weight="6" class="c02">
+        =<output name="x" for="a b"></output>  Liter H2O
+        </form>
+    </div>
+
+
+    <div class="list-group-item d-flex justify-content-between">
+       
+        <form oninput="x.value=parseFloat(b.value*120).toFixed(2)">
+            <i class="fas fa-bath"></i>
+        <input type="number" width="100" min="0" id="b" onblur="sumTotalH20()" placeholder="hoeveel baden?" data-weight="120" class="c02"> 
+        =<output name="x" for="a b"></output>  Liter H2O
+    </form>
+    </div>
+
+  
+      <div> <div class="list-group-item d-flex justify-content-between">
+        
+        <form oninput="x.value=parseFloat(f.value*10).toFixed(2)">
+            <i class="fas fa-shower"></i>
+        <input type="number" min="0" id="f" onblur="sumTotalH20()" placeholder="aantal minuten" placeholder="aantal minuten" data-weight="10" class="c02">
+        =<output name="x" for="a b"></output>  Liter H2O
+        </form>
+    </div>
+
+   
+ 
+    </div>
+    
+        <table>
+            <tr>
+                <td><h3>Totaal aantal liters water=</h3></td>
+                <td><h1 id="H20-result">0 L</h1></td>
+            </tr>
+
+            <!-- <tr>
+              id="H20-result"
+                <td>Totaal aan H20 =</td>
+                <td><h1 id="totaal-h2o">0</h1></td>
+            </tr> -->
+        </table>
+ 
+
+
+<script type="text/javascript">
+if (localStorage.getItem("totalC02")) {
+  document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
+}
+if (localStorage.getItem("totalH20")) {
+  document.getElementById("H20-result").innerHTML = localStorage.getItem("totalH20");
+}
+if (localStorage.getItem("totalH202")) {
+  document.getElementById("h20-result2").innerHTML = localStorage.getItem("totalH202");
+}
+
+function sumTotalH20(){
+    var c02Elements = document.getElementsByClassName('c02');
+    var totalH20=0;
+    for(var i=0;i<c02Elements.length;i++){
+        if(parseInt(c02Elements[i].value))
+            totalH20 += c02Elements[i].dataset.weight * parseInt(c02Elements[i].value).toFixed(2);
+    }
+    document.getElementById('H20-result').innerHTML = totalH20;
+
+
+    localStorage.setItem("totalH20", totalH20 + ' L');
+    document.getElementById("H20-result").innerHTML = localStorage.getItem("totalH20");
+}
+
+// function sumTotalH2o(){
+//     var h2oElements = document.getElementsByClassName('h2o');
+//     var totalH2o=0;
+//     for(var i=0;i<h2oElements.length;i++){
+//         if(parseInt(h2oElements[i].value))
+//             totalH2o += c02Elements[i].dataset.weight * parseInt(h2oElements[i].value);
+//     }
+//     document.getElementById('totaal-h2o').innerHTML = totalH2o;
+// }
+
+</script>
+
+</div>
+
+
+</form>
+</form>
+    </li>
+</ol>
+</body>
+</html>
