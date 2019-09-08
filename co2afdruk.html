@@ -34,7 +34,7 @@ background-image: url("https://photokip.com/upload/2018/08/21/20180821085101-b6e
 
 
 <div class="header" style="border: 3px solid #000000;">
-  <h1 style=font-size:50px><b>F  <img src="https://img.icons8.com/android/80/FFFFFF/human-footprints.png" height="50" width="50"> TPRINT CO²</b></h1>
+  <h1 style=font-size:50px><b>F  <img src="https://img.icons8.com/android/80/FFFFFF/human-footprints.png" height="50" width="50"> TPRINT CO₂</b></h1>
 </div>
 
 <head>
@@ -128,7 +128,7 @@ h4 {
 
  <body>
 
-<h4>   CO2 uitstoot</h4>
+<!-- <h4>   CO2 uitstoot</h4> -->
 <br>
 
 
@@ -281,7 +281,7 @@ function calculateScore() {
 	}
 
 	var totalScoreElement = document.getElementById('totalScore');
-	totalScoreElement.innerHTML = totalScore + ' kg C02';
+	totalScoreElement.innerHTML = totalScore + ' kg CO₂';
 
   localStorage.setItem("totalC02", totalScore + ' kg');
   document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
