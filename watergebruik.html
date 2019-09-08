@@ -198,14 +198,8 @@ h3 {
         <table>
             <tr>
                 <td><h3>Totaal aantal liters water=</h3></td>
-                <td><h1 id="H20-result">0 L</h1></td>
+                <td><h1 id="H20-result-total">0 L</h1></td>
             </tr>
-
-            <!-- <tr>
-              id="H20-result"
-                <td>Totaal aan H20 =</td>
-                <td><h1 id="totaal-h2o">0</h1></td>
-            </tr> -->
         </table>
  
 
@@ -232,18 +226,8 @@ function sumTotalH20(){
 
 
     localStorage.setItem("totalH20", totalH20 + ' L');
-    document.getElementById("H20-result").innerHTML = localStorage.getItem("totalH20");
+    document.getElementById("H20-result-total").innerHTML = localStorage.getItem("totalH20");
 }
-
-// function sumTotalH2o(){
-//     var h2oElements = document.getElementsByClassName('h2o');
-//     var totalH2o=0;
-//     for(var i=0;i<h2oElements.length;i++){
-//         if(parseInt(h2oElements[i].value))
-//             totalH2o += c02Elements[i].dataset.weight * parseInt(h2oElements[i].value);
-//     }
-//     document.getElementById('totaal-h2o').innerHTML = totalH2o;
-// }
 
 </script>
 
