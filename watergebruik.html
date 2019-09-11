@@ -198,7 +198,7 @@ h4,h2,h3 {
         <table>
             <tr>
                 <td><h3 id="H20-result-total">0 L</h3></td>
-                <td><h3></h3></td>
+                <td><h3> H₂O per week</h3></td>
             </tr>
         </table>
  
@@ -225,7 +225,7 @@ function sumTotalH20(){
     document.getElementById('H20-result').innerHTML = totalH20;
 
 
-    localStorage.setItem("totalH20", totalH20 + 'L');
+    localStorage.setItem("totalH20", totalH20 + ' L');
     document.getElementById("H20-result-total").innerHTML = localStorage.getItem("totalH20");
 }
 
