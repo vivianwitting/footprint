@@ -139,7 +139,7 @@ h6{
 	<div class="col-sm-6">
 	<form>
   <div class="form-group">
-	  <h6>De gemiddelde Nederlander stoot 190 kg CO2 per week uit!</h6>
+	  <h6>De gemiddelde Nederlander stoot 190 kg CO2 per week uit! Bereken nu hoe groot jouw uitstoot is.</h6>
 
     <label for="exampleInputEmail1">Hoeveel km is het rijden naar je werk of school?</label>
     <input type="number" class="form-control quiz-input" data-weight="0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="fiets">
@@ -161,7 +161,7 @@ h6{
   
     <input type="number" class="form-control quiz-input" data-weight="7" id="exampleInputPassword1" placeholder="Binnen Europa">
 
-    <input type="number" class="form-control quiz-input" data-weight="29" id="exampleInputPassword1" placeholder="Buiten Europa">
+    <input type="number" class="form-control quiz-input" data-weight="28" id="exampleInputPassword1" placeholder="Buiten Europa">
   </div>
 
 
@@ -171,7 +171,7 @@ Je woont in een...
       <option value="30">Klein appartement</option>
       <option value="45">Rijtjeshuis / groot appartement</option>
       <option value="50">Twee-onder-een-kap woning</option>
-      <option value="70">Een mega vila</option>
+      <option value="65">Een mega vila</option>
     </select>
     <div class="invalid-feedback">Example invalid custom select feedback</div>
   </div>
@@ -184,7 +184,7 @@ Je woont in een...
 	       	<option value="5">grijze stroom</option>
      	 	<option value="5">stadsverwarming (STEG)</i></option>
     		<option value="10">grijs gas</option>
-    		<option value="25">stookolie</option>
+    		<option value="20">stookolie</option>
     </select> 
     <div class="invalid-feedback">Example invalid custom select feedback</div>
   </div>
@@ -292,7 +292,7 @@ function calculateScore() {
   localStorage.setItem("totalC02", totalScore + ' kg');
   document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
 
-	if (totalScore < 750) {
+	if (totalScore > 190) {
 		totalScoreElement.classList.remove('text-success');
 		totalScoreElement.classList.add('text-danger');
 	}
