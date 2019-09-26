@@ -120,17 +120,6 @@ h4,h2,h3 {
 <div class="list-group">
 
 
-
-       <div class="list-group-item d-flex justify-content-between">
-       
-        <form oninput="x.value=parseFloat(b.value*1).toFixed(2)">
-            <img src="https://img.icons8.com/ios-filled/50/000000/wash-your-hands.png" width="20" height="20">
-        <input type="number" min="0" id="b" onblur="sumTotalH20()" placeholder="handen wassen" data-weight="1" class="c02"> 
-        =<output name="x" for="a b"></output>  L
-    </form>
-    </div>
-
-
     <div class="list-group-item d-flex justify-content-between">
        
         <form oninput="x.value=parseFloat(c.value*0.8).toFixed(2)">
@@ -170,7 +159,15 @@ h4,h2,h3 {
         =<output name="x" for="a b"></output>  L
         </form>
     </div>
-
+ 
+    <div class="list-group-item d-flex justify-content-between">
+       
+        <form oninput="x.value=parseFloat(b.value*1).toFixed(2)">
+            <img src="https://img.icons8.com/ios-filled/50/000000/wash-your-hands.png" width="20" height="20">
+        <input type="number" min="0" id="b" onblur="sumTotalH20()" placeholder="handen wassen" data-weight="1" class="c02"> 
+        =<output name="x" for="a b"></output>  L
+    </form>
+    </div>
 
     <div class="list-group-item d-flex justify-content-between">
        
