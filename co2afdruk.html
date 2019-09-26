@@ -139,7 +139,7 @@ h6{
 	<div class="col-sm-6">
 	<form>
   <div class="form-group">
-	  <h6>Nederlanders zijn verantwoordelijk voor drie keer zo veel CO2-uitstoot als een gemiddelde wereldburger. 190 kg CO2 per persoon per week! Bereken jou CO₂-uitstoot per week</h6>
+	  <h6>De gemiddelde Nederlander stoot 190 kg CO2 per week uit!</h6>
 
     <label for="exampleInputEmail1">Hoeveel km is het rijden naar je werk of school?</label>
     <input type="number" class="form-control quiz-input" data-weight="0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="fiets">
@@ -287,7 +287,7 @@ function calculateScore() {
 	}
 
 	var totalScoreElement = document.getElementById('totalScore');
-	totalScoreElement.innerHTML = totalScore + ' kg CO₂';
+	totalScoreElement.innerHTML = totalScore + ' kg CO₂ per week';
 
   localStorage.setItem("totalC02", totalScore + ' kg');
   document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
