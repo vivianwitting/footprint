@@ -250,6 +250,7 @@ Hoeveel vlees of vis eet je per week?
 </div>
 <div class="col-sm-6 text-center">
 	<h1 id="totalScore" class="" style="font-size:6em;"></h1>
+	<h1 id="vergelijking" class="" style="font-size:6em;"></h1>
 </div>
 
 
@@ -302,6 +303,28 @@ function calculateScore() {
 	}
 	// console.log(totalScore);
 }
+	function calculateScore() {
+
+	var quizInputs = document.getElementsByClassName('quiz-input');
+	var vergelijking=0;
+	// console.log(quizInputs);
+	for(var i=0;i<quizInputs.length;i++){
+	        	if(quizInputs[i].getAttribute('type') == 'radio' && quizInputs[i].checked == true) {
+					vergelijking += parseInt(quizInputs[i].dataset.weight);
+	        	}
+	        	else {
+	        		if(parseInt(quizInputs[i].value)) {
+	        			vergelijking += quizInputs[i].dataset.weight * parseInt(quizInputs[i].value) / 20 ;	
+	        		}
+	        	}
+	}
+
+	var totalScoreElement = document.getElementById('vergelijking');
+	totalScoreElement.innerHTML = vergelijking + ' keer zoveel';
+
+  localStorage.setItem("totalC02", totalScore + ' kg');
+  document.getElementById("c02-result").innerHTML = localStorage.getItem("totalC02");
+
 </script>
 
 
